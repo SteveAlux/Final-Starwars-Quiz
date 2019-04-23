@@ -1,0 +1,298 @@
+*{
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HOX7rov7iorrrmav/star-wars-starburst-hyper-space-effect_rse18xtu__F0000.png");
+  color:white;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+    height:100%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 1%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: flex-start;
+  align-items: center;
+  margin-right:auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:40%;
+}
+#js-restart-game{
+  margin-top: -50px;
+}
+.results p{
+ 
+  width:100%;
+  font-style: italic;
+  
+
+}
+main{
+  height:300px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right:10%;
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+  
+}
+#js-form h5{
+  font-size: 25px;
+}
+
+.wrong2{
+    font-size: 30px;
+    color:red;
+}
+#score_text{
+  color:gold;
+}
+.right2{
+    font-size: 30px;
+    color:rgb(20, 245, 20);
+}
+
+.fix_results{
+  margin-top:30px;
+  font-size:30px;
+}
+.hidden{
+    display: none;
+}
+.js-question-location{
+  width:100%;
+  text-align: left;
+  height: 100%;
+  margin-top: 50px;
+}
+.right{
+  text-align: center;
+}
+.wrong{
+  text-align: center;
+}
+.question_style label{
+
+}
+.solidBlue{
+  background:blue;
+}
+.blue{
+  transition: 3s;
+  background:linear-gradient(to right, blue 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  
+}
+
+.blue:hover{
+  transition: all 1.2s ease;
+  background-position: left bottom;
+  
+}
+.selected{
+ background: Gold;
+ 
+}
+input:checked{
+  font-size: 30px;
+  
+  
+}
+.red{
+  transition: 3s;
+  background:linear-gradient(to right, rgb(255, 0, 0) 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+.solidRed{
+  background:red;
+}
+.red:hover{
+  transition: all 1.2s ease;
+  background-position: left bottom;
+  
+}
+.solidPurp{
+  background:purple;
+
+}
+.purp{
+  transition: 3s;
+  background:linear-gradient(to right, rgb(206, 25, 206) 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.purp:hover{
+  transition: all 1.2s ease;
+  background-position: left bottom;
+  
+}
+.solidGreen{
+  background:rgb(8, 173, 8);
+}
+.green{
+  transition: 3s;
+  background:linear-gradient(to right, rgb(8, 173, 8) 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.question_style #l4:hover{
+  transition: all 1.2s ease;
+  background-position: left bottom;
+  
+}
+#js-form .question_style{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-evenly;
+  height: 60%;
+
+  }
+  .question_style label{
+    border: 1px solid gold;
+  }
+#answer_sub{
+  width:100px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:25px;
+ 
+}
+main button{
+  
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  
+  border: 1px solid gold;
+  
+}
+
+main button:hover{
+  
+  background: rgba(231, 199, 18, 0.884);
+
+
+}
+main button ul{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.results img{
+  height:200px;
+  width:100%;
+  max-width: 320px;
+}
+#score{
+    
+    left:1%;
+    font-size: 20px;
+    color:gold;
+    display: flex;
+    font-weight: bold;
+    margin-bottom:2%;
+}
+#question_counter{
+  
+  
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width:100%;
+
+}
+#js-form{
+  height:100%;
+} 
+.Gold{
+  color:gold;
+}
+#question_counter li{
+ 
+  width: 10%;
+  text-align: center;
+  margin-top:auto;
+  margin-bottom: auto;
+  height: 90%;
+  margin:.5%;
+  
+  height:90%;
+  box-sizing: border-box;
+  background: gray;
+  
+}
+/* SMALL SCREEN RESOLUTION */
+@media only screen and (max-width: 320px){
+  * {
+    margin:0;
+    padding:0;
+    background-color:blue;
+    background-image:none;
+  }
+  
+  
+  #question_counter{
+      height:50px;
+     
+  }
+}
+@media only screen and (min-width: 510px){
+#question_counter{
+  height:50%;
+  justify-content: space-evenly;
+
+}
+
+  #question_counter li{
+    
+    width: 8%;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom: auto;
+    height: 90%;
+    margin:.5%;
+    padding-top:1.5%;
+    height:90%;
+    box-sizing: border-box;
+    background: gray;
+    
+  }
+  footer{
+    
+    height:100px;
+  
+   
+  }
+
+}
