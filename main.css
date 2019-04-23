@@ -186,6 +186,9 @@ input:checked{
   font-size:25px;
  
 }
+#js-start-game{
+  margin-top:150px;
+}
 main button{
   
   font-size: 30px;
