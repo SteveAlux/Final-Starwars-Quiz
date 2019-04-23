@@ -192,6 +192,8 @@ main button{
   font-size: 30px;
   color:white;
   font-weight: bold;  
+   border:1px solid gold;
+ padding:5px;
 }
 
 main button:hover{
